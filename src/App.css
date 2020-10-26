@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  font: Arial, sans-serif;
+}
+
+.CNumber{
+  width: 22%;
+  margin-right: 1%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 105%;
+  padding: 12px;
+  resize: vertical;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: lightgray;
+  transition: 0.3s;
+  border-radius: 5px; 
+  max-width: 300px;
+  height: 150px;
+  margin: auto;
+}
+
+
+.CardNumbers{
+  background-color: lightgray;
+  border: none;
+  width: 14%;
+  margin-top: 7%;
+  margin-left: 2%;
+  font-size: large;
+}
+
+.CardName{
+  background-color: lightgray;
+  border: none;
+  width: 50%;
+  margin: 7%;
+}
+
+.ExpiresOn{
+  background-color: lightgray;
+  border: none;
+  width: 25%;
+  margin-top: 7%;
+  float: right;
+}
+
+.cardAdd {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: lightgrey;
+  transition: 0.3s;
+  border-radius: 5px; 
+  width: 300px;
+  height: 150px;
+  margin: 2%;
+  float: left;
+}
+
+.specialInput{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+span{
+  color: red;
+  font-size: small;
+}
